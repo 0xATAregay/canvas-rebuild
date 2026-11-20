@@ -137,7 +137,7 @@ function Grades({ course, initialSort }: { course: Course; initialSort: string }
   return <div className="content-layout grades-layout">
     <div className="min-w-0">
       <div className="grade-heading"><div><p className="eyebrow">{course.code}</p><h1>Grades</h1><p className="muted">{course.name} · Fall 2026</p></div><button className="button" onClick={() => window.print()}><Printer size={17} /> Print grades</button></div>
-      <div className="compact-grade"><span>{hasWhatIf ? 'What-if total' : gradedOnly ? 'Current grade' : 'All assignments'}<small className="sample-grades">Sample grades</small></span><strong>{gradeLabel(totals.total)}</strong></div>
+      <div className="compact-grade"><span>{hasWhatIf ? 'What-if total' : gradedOnly ? 'Current grade' : 'All assignments'}<small className="sample-grades"></small></span><strong>{gradeLabel(totals.total)}</strong></div>
       <form className="filters" onSubmit={(event) => {
         event.preventDefault()
         if (selection !== course.id) location.hash = `/courses/${selection}/grades?sort=${arrangement}`
