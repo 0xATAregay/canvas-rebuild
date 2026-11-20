@@ -141,7 +141,7 @@ thead th { white-space: nowrap; }
 .score { font-variant-numeric: tabular-nums; font-weight: 800; padding: .25rem .35rem; border-radius: 5px; }
 .score:hover { background: var(--surface); }
 .table-total { display: flex; justify-content: space-between; gap: 1rem; padding: .85rem 1rem; }
-.sample-grades { display: block; color: var(--muted); font: 500 .75rem "DM Sans Variable", sans-serif; letter-spacing: normal; margin-top: .2rem; }
+.sample-grades { display: block; color: #FFFFFF; font: 500 .75rem "DM Sans Variable", sans-serif; letter-spacing: normal; margin-top: .2rem; }
 .grade-summary { border-top: 4px solid var(--accent); }
 .grade-number { display: block; font: 800 1.9rem "Plus Jakarta Sans Variable", sans-serif; margin-bottom: .7rem; color: var(--accent); }
 .check-label { display: flex; gap: .5rem; margin: .9rem 0 .55rem; font-size: .86rem; }
